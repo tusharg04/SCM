@@ -1,0 +1,32 @@
+.app-header {
+  background-color: #ffffff; /* White background for a clean look */
+  padding: 8px 20px; /* Reduced vertical padding */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-bottom: 1px solid #e0e0e0; /* Light border at the bottom */
+  display: flex; /* Use flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.header-content {
+  /* If you had multiple items, you could use flexbox here too */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensure content can fill available width if needed */
+}
+
+.header-logo {
+  max-width: 140px; /* Reduced logo size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures proper spacing and centering */
+}
+
+.app-title {
+  margin-left: 15px; /* Reduced space between logo and title */
+  color: #333; /* Darker text color */
+  font-size: 1.5rem; /* Reduced font size */
+  font-weight: bold;
+}

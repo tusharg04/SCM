@@ -1,0 +1,6 @@
+@import './base.css';
+/* @import './utilities.css'; */
+@import './components/Navbar.css';
+@import './pages/Home.css';
+@import './pages/Login.css';
+@import './pages/Orders.css';

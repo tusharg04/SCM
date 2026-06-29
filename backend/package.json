@@ -1,0 +1,25 @@
+{
+  "name": "bidding-system-backend",
+  "version": "1.0.0",
+  "description": "Bidding System Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seeders/seed.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

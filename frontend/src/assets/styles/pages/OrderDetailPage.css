@@ -1,0 +1,90 @@
+.order-detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.order-description {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.order-status {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.order-status.active {
+  color: #28a745;
+}
+.order-status.closed {
+  color: #dc3545;
+}
+
+.items-table,
+.quotation-table,
+.quotations-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.items-table th,
+.items-table td,
+.quotation-table th,
+.quotation-table td,
+.quotations-table th,
+.quotations-table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.quotation-form input[type="number"] {
+  width: 80px;
+  padding: 4px;
+}
+
+.submit-btn,
+.stop-bidding-btn,
+.download-csv-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-btn:hover,
+.stop-bidding-btn:hover,
+.download-csv-btn:hover {
+  background-color: #0056b3;
+}
+
+.current-seller {
+  background-color: #eef9ff;
+  font-weight: 600;
+}
+
+.loading {
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.error-message {
+  padding: 12px;
+  background: #fdecea;
+  color: #b00020;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
